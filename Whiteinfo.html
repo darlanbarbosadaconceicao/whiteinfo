@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.ico"image/x-icon">
+  <title>Whiteinfo - Curso Técnico em Informática</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Times New Roman', Times, serif;
+      background-color: #1b1818;
+      color: white;
+      font-size: 30px;
+    }
+
+    header {
+      background-color: #131212;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 3px solid gold;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    header h1 {
+  color: gold;
+  font-size: 50px; 
+  margin: 0;
+  line-height: 1; 
+}
+    header img {
+      width: 120px;
+      height: auto;
+    }
+
+    nav {
+      background-color: #222;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 30px;
+    }
+
+    nav a:hover {
+      color: gold;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section-title {
+      color: gold;
+      font-size: 30px;
+      margin-bottom: 20px;
+      border-left: 5px solid white;
+      padding-left: 10px;
+    }
+
+    .content {
+      background-color: #111;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px gold;
+      margin-bottom: 40px;
+      text-align: justify;
+    }
+
+    .content p, .content ul {
+      color: #ddd;
+      line-height: 1.6;
+      font-size: 30px;
+    }
+
+    .image-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .image-box {
+      background-color: #222;
+      border: 2px solid gold;
+      padding: 10px;
+      border-radius: 10px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .image-box img {
+      width: 100%;
+      height: auto;
+      max-height: 300px;
+      object-fit: contain;
+      border-radius: 8px;
+    }
+
+    .image-box p {
+      color: white;
+      margin-top: 10px;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #111;
+      text-align: center;
+      color: white;
+      padding: 20px;
+      border-top: 2px solid gold;
+      font-size: 30px;
+    }
+
+    li {
+      font-size: 30px;
+    }
+
+    section {
+      font-size: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="WhatsApp Image 2025-04-11 at 09.00.49 (1).jpeg" alt="Whiteinfo">
+      <h1>Whiteinfo</h1>
+  </div>
+  </header>
+
+  <nav>
+    <a href="#curso">O Curso</a>
+    <a href="#atuacao">Áreas de Atuação</a>
+    <a href="#projetos">Projetos da Turma</a>
+    <a href="#nossaturma">Nossa Turma</a>
+  </nav>
+
+  <div class="container">
+    <section id="curso" class="content">
+      <h2 class="section-title">O que é o Curso Técnico em Informática?</h2>
+      <p>
+        O curso Técnico em Informática integrado ao Ensino Médio é uma formação que une o conteúdo das disciplinas dos componentes da base comum curricular, como Matemática,                    Português e Ciências, com uma preparação profissional na área da informática.
+        <br><br>
+        Durante o curso, os estudantes aprendem na prática como funcionam os computadores e os sistemas. Eles desenvolvem habilidades em programação, criação de sites, montagem e manutenção de computadores, uso de softwares e também têm contato com bancos de dados e redes de computadores.
+        <br><br>
+        Essa formação oferece uma base sólida para quem tem interesse em tecnologia e deseja entender como as ferramentas digitais são criadas e utilizadas no dia a dia. Além disso, o curso ajuda a desenvolver o raciocínio lógico, a criatividade e a capacidade de resolver problemas.
+        <br><br>
+        Ao final do curso, os estudante estará preparado para seguir na área de informática, continuar os estudos em cursos superiores ou até mesmo ingressar no mercado de trabalho com uma profissão em mãos.
+      </p>
+    </section>
+
+    <section id="atuacao" class="content">
+      <h2 class="section-title">Áreas de Atuação</h2>
+      <ul>
+        <li>Desenvolvimento de sistemas e aplicativos;</li>
+        <li>Manutenção e montagem de computadores;</li>
+        <li>Administração de redes e servidores;</li>
+        <li>Suporte técnico e help desk;</li>
+        <li>Criação de sites e interfaces web;</li>
+        <li>Programação.</li>
+      </ul>
+    </section>
+
+    <section id="projetos" class="content">
+      <h2 class="section-title">Projetos da Nossa Turma</h2>
+      <div class="image-gallery">
+        <div class="image-box"><img src="IMG-20250405-WA0013.jpg" alt="Banco de dados MySQL"><p>Banco de dados - MySQL Workbench</p></div>
+        <div class="image-box"><img src="IMG-20250405-WA0015.jpg" alt="Montagem de PC 1"><p>Montagem e Manutenção - HDD</p></div>
+        <div class="image-box"><img src="IMG-20250405-WA0016.jpg" alt="Montagem de PC 2"><p>Montagem e manutenção - Placa mãe</p></div>
+        <div class="image-box"><img src="IMG-20250405-WA0017.jpg" alt="Montagem de PC 3"><p>Montagem e manutenção - Placa mãe</p></div>
+        <div class="image-box"><img src="IMG-20250405-WA0018.jpg" alt="Montagem de PC 4"><p>Montagem e manutenção - Fonte de alimentação</p></div>
+        <div class="image-box"><img src="IMG-20250405-WA0019.jpg" alt="Montagem de PC 5"><p>Montagem e manutenção</p></div>
+        <div class="image-box"><img src="IMG-20250405-WA0010.jpg" alt="Java 1"><p>Lógica De Programação</p></div>
+        <div class="image-box"><img src="IMG-20250405-WA0011.jpg" alt="Java 2"><p>Lógica De Programação</p></div>
+      </div>
+    </section>
+
+    <section id="nossaturma" class="content">
+        <h2 class="section-title">Momentos da turma:</h2>
+        <div class="image-gallery">
+         
+          <div class="image-box"><img src="IMG-20250405-WA0106.jpg" alt="Turma 1"><p> Turma </p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0055.jpg" alt="Turma 2"><p>Regência</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0056.jpg" alt="Turma 3"><p>Video com professor</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0057.jpg" alt="Turma 4"><p>Professora Jessica</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0060.jpg" alt="Turma 7"><p>Professora Katiane</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0061.jpg" alt="Turma 8"><p>Professor Guilherme</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0062.jpg" alt="Turma 9"><p>Professor Rafael </p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0063.jpg" alt="Turma 10"><p>Professora Alice</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0065.jpg" alt="Turma 12"><p>Dinâmica</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0067.jpg" alt="Turma 14"><p>Desfile de espanhol</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0068.jpg" alt="Turma 15"><p>Festa junina VON</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0071.jpg" alt="Turma 18"><p>Alunos</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0074.jpg" alt="Turma 21"><p> Alunas</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0077.jpg" alt="Turma 24"><p>Alunos</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0078.jpg" alt="Turma 25"><p>Dança Catarina - Regional 2024</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0079.jpg" alt="Turma 26"><p>Alunos</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0081.jpg" alt="Turma 28"><p>Dança Catarina - Regional 2024</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0082.jpg" alt="Turma 29"><p>Interclasse 2025</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0083.jpg" alt="Turma 30"><p>Interclasse 2025</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0084.jpg" alt="Turma 31"><p>Interclasse 2025</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0085.jpg" alt="Turma 32"><p>Alunos</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0086.jpg" alt="Turma 33"><p>Alunos</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0087.jpg" alt="Turma 34"><p>Alunos</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0088.jpg" alt="Turma 35"><p>Alunos</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0089.jpg" alt="Turma 36"><p>Desfile de espanhol</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0090.jpg" alt="Turma 37"><p>Dança Catarina - Regional 2024</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0091.jpg" alt="Turma 38"><p>Culminancia de linguagens</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0092.jpg" alt="Turma 39"><p>Alunos</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0093.jpg" alt="Turma 40"><p>Alunos</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0094.jpg" alt="Turma 41"><p>Alunos</p></div>
+          
+         
+          <div class="image-box"><img src="IMG-20250405-WA0102.jpg" alt="Turma 47"> Interclasse 2025<p></p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0105.jpg" alt="Turma 50"><p>Interclasse 2025</p></div>
+          <div class="image-box"><img src="IMG-20250405-WA0054.jpg" alt="Turma 51"><p>Interclasse 2025</p></div>
+          <div class="image-box"><img src="WhatsApp Image 2025-04-08 at 18.34.03.jpeg" alt="Turma 51"><p>Meso Regional Dança Catarina - 2024</p></div>
+          <div class="image-box"><img src="WhatsApp Image 2025-04-08 at 18.44.13 (1).jpeg" alt="Turma 51"><p>Regional Dança Catarina - 2024 2025</p></div>
+          <div class="image-box"><img src="WhatsApp Image 2025-04-08 at 18.44.13.jpeg" alt="Turma 51"><p>Regional Dança Catarina - 2024 </p></div>
+        </div>
+      </section>
+      
+</body>
+<footer>
+  <p>&copy; 2025 Whiteinfo - Todos os direitos reservados</p>
+</footer>
+</html>
+ 
+
+
